@@ -1,0 +1,24 @@
+# data and artefacts never go into git
+data/*
+!data/splits/
+runs/
+exports/
+*.pt
+*.pth
+*.onnx
+*.onnx.data
+*.engine
+*.safetensors
+
+# python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+
+# os and editors
+.DS_Store
+.idea/
+.vscode/

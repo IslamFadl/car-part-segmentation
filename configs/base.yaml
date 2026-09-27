@@ -1,0 +1,6 @@
+# Shared defaults. Other configs inherit with `_base_: base.yaml`.
+# Write floats with a dot and a signed exponent (1.0e-4). PyYAML reads 1e-4 as a string.
+seed: 0
+device: auto          # auto | cuda | mps | cpu
+data:
+  raw_dir: data/raw/carparts-seg
